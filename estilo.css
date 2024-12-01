@@ -1,0 +1,73 @@
+.imagem{
+  background: url("imagens/rm.jpeg") no-repeat;
+  width: 500px;
+  height: 500px;
+  background-size: contain;
+  display: block;
+  margin:0px auto 0px auto;
+}
+
+.imagem:hover{
+  background-position: 0px 200px;
+}
+.imagem:active{
+    background-position:200px 200px;
+}
+body{
+  background-color:rgb(184, 140, 86);
+}
+.titulo{
+  text-align: center;
+  background-color: rgba(177, 245, 250, 0.541);
+  font-style:unset;
+}
+.descricao{
+  text-align:center;
+  font-size: 14px;
+
+}
+.paragrafo{
+  text-align: center;
+  font-style: italic;
+  font-size: 30px;
+}
+.tituloMusicas{
+  font-size: 20px;
+  text-align: center;
+ 
+}
+div:hover{
+  background-color:  rgba(177, 245, 250, 0.541);
+  font-weight:bolder;
+  font-size:25px;
+}
+/*.audioMusica{
+background-color: rgba(177, 245, 250, 0.541) ;
+}*/
+.musicas{
+  color: black;
+}
+.musicaTocando{
+  font-family: monospace;
+    font-style: oblique ;
+}
+
+
+
+
+
+  
+
+
+
+/*.tituloMusicas li:nth-child(odd):hover{
+  background-color: rgba(177, 245, 250, 0.541);
+  font-weight: bolder;
+}
+.tituloMusicas li:nth-child(even):hover{
+  background-color: rgba(177, 245, 250, 0.541);
+  font-weight: bolder;
+}
+ul{
+  text-align: center;
+}*/
